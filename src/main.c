@@ -12,7 +12,7 @@
 #define WIDTH 1920
 #define HEIGHT 1080
 #define COLOR_WHITE SDL_MapRGB(psurface->format, 255, 255, 255)
-#define MANDELBROT_LIMIT 1000
+#define MANDELBROT_LIMIT 2
 #define ZOOM 400
 #define OFFSET_X 100
 
