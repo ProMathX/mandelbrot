@@ -9,12 +9,12 @@
 #include <complex.h>
 #include <wctype.h>
 
-#define WIDTH 1920
-#define HEIGHT 1080
+#define WIDTH 2000
+#define HEIGHT 2300
 #define COLOR_WHITE SDL_MapRGB(psurface->format, 255, 255, 255)
 #define MANDELBROT_LIMIT 2
-#define ZOOM 400
-#define OFFSET_X 100
+#define ZOOM 700
+#define OFFSET_X 300
 
 int check_mandelbrot(double real, double imag){
     double _Complex c = real + imag * I;
